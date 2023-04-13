@@ -1,0 +1,533 @@
+@font-face {
+  font-family: Ageo;
+  src: url(../fonts/AgeoPersonalUse.otf);
+}
+
+@font-face {
+  font-family: Ageo-Bold;
+  src: url(../fonts/AgeoPersonalUse-SemiBold.otf);
+}
+
+@font-face {
+  font-family: Ageo-ExtraBold;
+  src: url(../fonts/AgeoPersonalUse-ExtraBold.otf);
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Ageo";
+  margin: 0px;
+}
+
+#landing-page {
+  max-width: 1170px;
+  min-width: 700px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-top: 48px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28.5px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  height: 29px;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+ul > li {
+  margin-right: 40px;
+}
+
+header a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  width: 527px;
+  min-width: 412px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li:hover {
+  font-weight: 700;
+}
+
+header .btn {
+  width: 119px;
+}
+
+.logo {
+  width: 240px;
+  height: 49px;
+}
+
+.log-area {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  align-items: center;
+}
+
+.login {
+  margin-right: 22px;
+}
+
+#sign-in {
+  color: white;
+}
+
+.get-started {
+  display: flex;
+  margin-top: 21px;
+}
+
+.text-content {
+  margin-top: 10px;
+  max-width: 560px;
+}
+
+.get-started .btn,
+.bars .btn {
+  width: 162px;
+}
+
+.joyful-guy {
+  height: 618px;
+  width: 606px;
+}
+.title {
+  margin: 83px 0px 0px 0px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 81px;
+  font-family: Ageo-ExtraBold;
+  letter-spacing: 0em;
+  color: #0b1b35;
+}
+
+.goal {
+  font-family: Ageo;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 16px 0px 64px 0px;
+  max-width: 555px;
+}
+
+.btn {
+  background: #ff6600;
+  border-radius: 10px;
+  height: 49px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover,
+.btn-explore:hover,
+.tile:hover {
+  cursor: pointer;
+}
+
+.service-area {
+  margin-top: 87px;
+}
+
+.area-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.45em;
+  text-align: center;
+  color: #8a898e;
+}
+
+.area-description {
+  font-family: Ageo-ExtraBold;
+  margin-top: 19px;
+  font-size: 52px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: 700;
+  color: #0b1b35;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 28px;
+  width: 270px;
+  padding: 41px;
+  text-align: center;
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bar .btn {
+  margin-top: 18px;
+}
+
+.bar-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#img-2 {
+  height: 76.47px;
+}
+
+.video-area {
+  margin-top: 181px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #15143966;
+  max-width: 322px;
+}
+
+.description-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #1e0e62;
+  max-width: 303px;
+}
+
+.btn-explore {
+  margin-top: 72px;
+  border: 2px solid #ebeaed;
+  border-radius: 100px;
+  height: 48px;
+  width: 132px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-explore a {
+  color: #1e0e62;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+.testimonials-area {
+  margin-top: 146px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 101px;
+}
+
+.testimonial {
+  width: 407px;
+  height: 179px;
+  margin: 15px;
+  display: flex;
+  padding: 35px 28px 23px 35px;
+}
+
+.test-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #0b1b35;
+}
+
+.test-text p {
+  margin: 0;
+}
+
+.test-name {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #0b1b35;
+  opacity: 0.3;
+}
+
+.team-area {
+  margin-top: 142px;
+}
+.teammates {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 53px;
+}
+
+.teammate {
+  height: 366px;
+  width: 366px;
+  border: 2px solid #ebeaed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.teammate img {
+  margin-top: 50px;
+}
+
+.name {
+  margin-top: 29px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+
+  color: #1e0e62;
+}
+
+.position {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.socials {
+  border-top: 2px solid #ebeaed;
+  height: 59px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tile {
+  width: 122px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "FontAwesome";
+  font-size: 22px;
+  line-height: 38px;
+  color: rgba(21, 20, 57, 0.4);
+}
+
+.tile:nth-child(2) {
+  border-right: 2px solid #ebeaed;
+  border-left: 2px solid #ebeaed;
+}
+
+footer {
+  position: relative;
+  margin-top: 64px;
+  min-height: 180px;
+}
+
+.footer-logo img {
+  height: 1.5em;
+}
+
+.copyright {
+  margin-left: 90px;
+}
+
+footer p,
+footer ul {
+  margin: 0;
+}
+
+footer li:last-child {
+  margin-right: 0;
+}
+
+.footer-up {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #1e0e62;
+}
+
+.footer-up a {
+  color: #1e0e62;
+}
+.right-bar {
+  position: absolute;
+  right: 0px;
+  width: 540px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-text {
+  margin-top: 73px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #15143966;
+}
+@media (max-width: 1380px) {
+  .teammates {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teammate {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1300px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  header .logo {
+    order: 1;
+    margin-top: 8px;
+    margin-left: auto;
+  }
+
+  nav {
+    order: 3;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .log-area {
+    position: static;
+    order: 2;
+    margin-left: 76px;
+    margin-top: 8px;
+    margin-right: auto;
+  }
+
+  .get-started {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .video-area {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .description {
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn-explore {
+    margin-top: 40px;
+  }
+
+  .footer-up {
+    justify-content: space-between;
+  }
+
+  .right-bar {
+    position: static;
+    margin-left: 101px;
+  }
+
+  .copyright {
+    order: 3;
+    margin-left: 0;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .right-bar {
+    margin-left: 40px;
+  }
+}
